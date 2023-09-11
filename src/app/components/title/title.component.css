@@ -1,0 +1,15 @@
+.main_title_container {
+  font-family: sans-serif;
+  color: white;
+  text-transform: uppercase;
+  padding: 1em 0;
+}
+
+.main_title_container > h1 {
+  font-size: 17em;
+  text-align: center;
+}
+
+.main_title_container > hr {
+  margin: 0.2em;
+}

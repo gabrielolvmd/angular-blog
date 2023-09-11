@@ -1,0 +1,28 @@
+.main-card_container {
+  border: 1px solid red;
+  width: 25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.main-card_image {
+  width: 100%;
+}
+
+.main-card_content {
+  padding: 1em;
+}
+
+.main-card_image img {
+  width: 100%;
+  display: block;
+}
+
+.main-card_container .title {
+  font-size: 1.5em;
+}
+
+.main-card_container .description {
+  color: grey;
+}
