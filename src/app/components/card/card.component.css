@@ -1,0 +1,20 @@
+.container__card {
+  display: flex;
+  width: 700px;
+  gap: 2em;
+}
+
+.card_image img {
+  display: block;
+  width: 200px;
+}
+
+.card_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+hr {
+  margin-top: 0.5em;
+}

@@ -1,0 +1,10 @@
+.articles {
+  display: flex;
+  gap: 4em;
+  justify-content: center;
+}
+.secondary_articles {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}

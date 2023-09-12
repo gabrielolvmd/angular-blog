@@ -1,5 +1,4 @@
 .main-card_container {
-  border: 1px solid red;
   width: 25em;
   display: flex;
   flex-direction: column;
@@ -11,7 +10,7 @@
 }
 
 .main-card_content {
-  padding: 1em;
+  margin: 1em 0;
 }
 
 .main-card_image img {
