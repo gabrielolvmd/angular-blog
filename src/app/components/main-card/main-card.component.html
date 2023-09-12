@@ -1,9 +1,9 @@
 <div class="main-card_container">
   <div class="main-card_image">
-    <img src={{photoCover}} alt="image" width="300px">
+    <img src="{{ photoCover }}" alt="image" width="300px">
   </div>
   <div class="main-card_content">
-    <a href="#">
+    <a [routerLink]="['content', id]">
       <h1 class="title">
         {{cardTitle}}
       </h1>
